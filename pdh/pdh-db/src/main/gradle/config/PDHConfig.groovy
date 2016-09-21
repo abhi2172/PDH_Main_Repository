@@ -3,7 +3,7 @@ environments {
 		server {
 		    host='10.213.8.123'
 		    user='mhedev'
-			password='p@ssDEV1'
+			password='DEV1p@ss'
 		}		
 		informaticaServer {
 		    host='10.213.243.31'
