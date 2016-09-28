@@ -1,7 +1,6 @@
 --liquibase formatted sql
---liquibase formatted sql
 
---changeset sourav_mukherjee:1 runAlways:true splitStatements:false
+--changeset sourav_mukherjee:1 runOnChange:true splitStatements:false
 /*********************************************************************************************************************
 /*             Name: MHEEGO_NYCDOE_EXTRACT_PKG.pkg
 /*      Object Type: Package Specification Script File
@@ -23,7 +22,7 @@ CREATE or REPLACE package mhe_ego_nycdoe_extract_pkg is
 END mhe_ego_nycdoe_extract_pkg;
 
 
---changeset sourav_mukherjee:2 runAlways:true splitStatements:false
+--changeset sourav_mukherjee:2 runOnChange:true splitStatements:false
 /*********************************************************************************************************************
 /*             Name: MHEEGO_NYCDOE_EXTRACT_PKG.pkb
 /*      Object Type: Package Body Script File
